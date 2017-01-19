@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-sample</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Child</h1> 
+      <h1>Reactive Data Sample</h1> 
+      <react-data :height=150></react-data>
+      <h1>Reactive Prop Sample</h1> 
+      <react-prop :chart-data="graphData" :options="opt" :height=150></react-prop>
+    </div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
